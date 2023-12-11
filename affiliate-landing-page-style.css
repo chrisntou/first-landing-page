@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+}
+
+.article, section {
+    margin: 10px;
+    padding: 10px;
+}
+
+.affiliate-link, .affiliate-banner, .banner-ad, .banner-ad-footer {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .affiliate-banner, .banner-ad, .banner-ad-footer {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: smaller;
+    }
+}
